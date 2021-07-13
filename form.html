@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling.css">
+</head>
+<body>
+    <div class="container">
+    <form class="login" method="post">
+        <div class="na_me">Name</div>
+      <input type="text" name="name" id="name" required>
+
+    <div class="contact_no">Contact No.</div>
+    <input type="number" name="contact" id="contact"  required>
+   
+    <div class="educational_exp">Educational details</div>
+  <input type="text" name="edu_exp" id="edu_exp"  required>
+  
+  <div class="working_exp">Work experience</div>
+ <input type="text" name="work_exp" id="work_exp"  required>
+ 
+ <div class="upload_image">Upload image</div>
+  <input type="file" name="image" id="image" required>
+  
+
+<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+<!-- <p><label for="file" style="cursor: pointer;">Upload Image</label></p> -->
+<p><img id="output" width="200" /></p>
+</br>
+
+    <button type="button" value="submit"  onclick="portfolio()"> Submit</button>
+    </form>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>

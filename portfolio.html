@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styling.css">
+
+</head>
+<body >
+
+    
+        
+    </div>
+    <div class="container">
+        <h1 class="class">Portfolio details</h1>
+
+        <form class="login" method="post">
+       
+        <div class="na_me">Name</div>
+        <input type="text" name="name" id="getName" readonly>
+        </br>
+      
+        <div class="contact_no">Contact No.</div>
+
+       <input type="number" name="contact" id="getContact" readonly>
+       <div class="educational_exp">Educational details</div>
+
+      <input type="text" name="edu_exp" id="getEdu_exp" readonly>
+      <div class="working_exp">Work experience</div>
+
+     <input type="text" name="work_exp" id="getWork_exp" readonly>    
+
+     <img src="2.jpeg" id="myimg"></form>
+     
+  </form>
+    </div>
+    <script>
+        window.onload =  function setInputFields(){
+     
+    let getName = localStorage.getItem('name');
+    document.getElementById("getName").value = getName;
+
+     let getContact = localStorage.getItem('contact');
+      document.getElementById("getContact").value = getContact;
+
+     let edu_exp = localStorage.getItem('edu_exp');
+     document.getElementById("getEdu_exp").value = edu_exp;
+
+     let work_exp = localStorage.getItem('work_exp');
+     document.getElementById("getWork_exp").value = work_exp;
+
+     let image = localStorage.getItem('image');
+     let displayImage = document.getElementById('image');
+     displayImage.appendChild(image);
+ }
+    </script>
+</body>
+</html>
