@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: url(./2.jpeg) no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.container{
+    position:relative;
+    margin-top: 100px;
+    width :450px;
+    height: auto;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-family: sans-serif;
+
+}
+
+.class{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight:bold;
+    color: #888888;
+}
+.class2{
+    padding: 20px 12px;
+    font-size: 28px;
+    font-weight:bold;
+    color: #888888;
+}
+.login{
+    padding :20px 40px;
+}
+.login .user_name{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .pass_word{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .na_me{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .contact_no{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .educational_exp{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .working_exp{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login .upload_image{
+    font-size:18px;
+    color:#888888;
+    margin: 5px 0;
+}
+.login input{
+     height :40px;
+     width: 350px;
+     padding: 0 5px 5px;
+     font-size: 18px;
+     outline :none;
+     border: 1px solid rgb(14, 7, 7);
+}
+.login .pass_word{
+    margin-top:30px;
+}
+.login button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color :white;
+    outline: none;
+    cursor:pointer;
+    font-weight: bold;
+    background: #ecc8ce;
+    border-radius: 3px;
+    border: 1px solid #010102;
+   transition: .5s;
+
+}
+.login button:hover{
+    background-color:  #f7bbbb;
+    font:white;
+}
+
+#myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+/* .login #username2,
+.login #password2,
+.login #name2,
+.login #contact2,
+.login #edu_exp2,
+.login #work_Exp2,
+.login #upload2
+{
+     margin-top:5px;
+     width:345px;
+     font-size: 18px;
+     color: #c62828;
+     background: rgba (255,0,0,0.1);
+     text-align: center;
+     padding: 5px 8px;
+     border-radius: 3px;
+     border:1 px solid #ef9a9a;
+     display:none;
+}
+
+ */
+
+
+
+
+
